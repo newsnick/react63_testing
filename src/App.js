@@ -6,7 +6,7 @@
 // npm install --save-dev @testing-library/react
 // command to run test: npm test
 // common imports for Jest library
-// import {render , screen, fireEvent, render} from '@testing-library/react'
+// import {render , screen, fireEvent} from '@testing-library/react'
 // import '@testing-library/jest-dom/extend-expect'
 
 import './App.css'

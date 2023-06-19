@@ -7,10 +7,15 @@ function Counter(props) {
     setCounter(counter + 1)
   }
 
+  const decrement = () => {
+    setCounter(counter - 1)
+  }
+
   return (
     <div>
       <h2>Counter: {counter}</h2>
       <button onClick={increment}>Increment</button>
+      <button onClick={decrement}>Decrement</button>
     </div>
   )
 }
